@@ -1,0 +1,6 @@
+[OpenStack_Train]
+name=OpenStack_Train
+baseurl=https://repo.openeuler.org/$openEuler_release/EPOL/Multi-Version/OpenStack/$OpenStack_release/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.openeuler.org/$openEuler_release/EPOL/Multi-Version/OpenStack/$OpenStack_release/$basearch/RPM-GPG-KEY-openEuler
