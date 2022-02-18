@@ -4,3 +4,4 @@ baseurl=https://repo.openeuler.org/$openEuler_release/EPOL/multi_version/OpenSta
 enabled=1
 gpgcheck=1
 gpgkey=https://repo.openeuler.org/$openEuler_release/EPOL/multi_version/OpenStack/$OpenStack_release/$basearch/RPM-GPG-KEY-openEuler
+priority=1
