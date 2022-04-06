@@ -5,3 +5,11 @@ enabled=1
 gpgcheck=1
 gpgkey=https://repo.openeuler.org/$openEuler_release/EPOL/OS/$basearch/RPM-GPG-KEY-openEuler
 priority=1
+
+[OpenStack_$OpenStack_release_update]
+name=OpenStack_$OpenStack_release_update
+baseurl=https://repo.openeuler.org/$openEuler_release/EPOL/update/multi_version/OpenStack/$OpenStack_release/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.openeuler.org/$openEuler_release/EPOL/OS/$basearch/RPM-GPG-KEY-openEuler
+priority=1
